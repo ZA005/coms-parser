@@ -1,0 +1,36 @@
+{
+  "name": "@iaintz4/coms-parser",
+  "version": "0.0.1",
+  "description": "coms parser package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && rollup -c",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZA005/coms-parser.git"
+  },
+  "author": "iaintz4",
+  "license": "MIT",
+  "dependencies": {
+    "papaparse": "^5.5.3",
+    "rollup-obfuscator": "^4.1.1",
+    "tslib": "^2.8.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/papaparse": "^5.3.16",
+    "rollup": "^4.46.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ZA005/coms-parser/issues"
+  },
+  "homepage": "https://github.com/ZA005/coms-parser#readme"
+}
